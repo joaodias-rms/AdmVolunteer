@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar color="#8634eb" class="white--text" right flat max-height="50px">
+  <v-app-bar color="#8634eb" class="white--text" right flat max-height="55px">
     <v-btn
       to="/"
       color="transparent"
