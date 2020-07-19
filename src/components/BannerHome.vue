@@ -12,7 +12,7 @@
         <h4 class="mt-5 white--text">
           Conecte pessoas do mundo todo com seus projetos
         </h4>
-        <v-btn class="mt-5 pa-4" x-large color="white">Seja membro</v-btn>
+        <v-btn to="/Register" class="mt-5 pa-4" x-large color="white">Seja membro</v-btn>
       </v-col>
     </v-row>
   </div>
