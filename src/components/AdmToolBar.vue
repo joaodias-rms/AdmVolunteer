@@ -12,7 +12,7 @@
       <Icon Width="120" Height="25px" colorIcon="white"
     /></v-btn>
     <v-spacer></v-spacer>
-    <v-btn class="mr-3" text color="white">Já sou parceiro</v-btn>
+    <v-btn class="mr-3" to="/Login" text color="white">Já sou parceiro</v-btn>
     <v-btn class="mr-3" text color="white">Ajuda</v-btn>
     <v-btn class="mr-3" text color="white">Medidas COVID-19</v-btn>
     <v-btn class="mr-3" outlined color="white">Faça parte</v-btn>
