@@ -27,7 +27,7 @@
             <v-btn text small to="/Register" >Cadastre-se</v-btn>
           </div>
           <div class="mb-2">
-            <v-btn depressed block medium color="#8634eb">
+            <v-btn to="/ProfileHome" depressed block medium color="#8634eb">
               <span class="white--text">Entrar</span>
             </v-btn>
           </div>
