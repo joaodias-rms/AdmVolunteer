@@ -5,7 +5,8 @@
         <SideMenu />
       </v-col>
       <v-col>
-        <Projects />
+        <router-view>
+        </router-view>
       </v-col>
     </v-row>
   </div>
@@ -13,11 +14,10 @@
 
 <script>
 import SideMenu from "@/components/SideMenu.vue";
-import Projects from "@/components/Projects.vue";
+
 export default {
   components: {
     SideMenu,
-    Projects
   }
 };
 </script>
