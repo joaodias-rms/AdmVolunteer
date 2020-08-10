@@ -18,15 +18,45 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () => import("../views/About.vue"),
   },
+  
   {
-    path: "/Register",
-    name: "Register",
-    component: () => import("../views/Register.vue"),
+    path: "/Session",
+    name: "Session",
+    component: () => import("../views/Session.vue"),
+    children: [
+      {
+        path: "/",
+        name: "Login",
+        component: () => import("../components/Session/Login.vue"),
+      },
+      {
+        path: "/Register",
+         name: "Register",
+         component: () => import("../components/Session/Register.vue"),
+       },
+      {
+       path: "/PersonRegister",
+        name: "PersonRegister",
+        component: () => import("../components/Session/PersonRegister.vue"),
+      },
+      {
+        path: "/OngDetails",
+         name: "OngDetails",
+         component: () => import("../components/Session/OngDetails.vue"),
+       },
+    ],
   },
   {
-    path: "/Login",
-    name: "Login",
-    component: () => import("../views/Login.vue"),
+    path: "/ProfileHome",
+    name: "ProfileHome",
+    component: () => import("../views/ProfileHome.vue"),
+    children: [
+      {
+        path: "",
+        name: "Projects",
+        component: () => import("../components/Projects.vue"),
+      },
+    ],
   },
 ];
 
