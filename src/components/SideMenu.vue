@@ -18,7 +18,7 @@
       <v-divider></v-divider>
 
       <v-list nav dense>
-        <v-list-item link>
+        <v-list-item link to="/Projects">
           <v-list-icon>
             <v-icon>mdi-account-star</v-icon>
           </v-list-icon>
