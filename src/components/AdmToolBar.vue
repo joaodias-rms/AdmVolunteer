@@ -15,7 +15,7 @@
     <v-btn class="mr-3" to="/Login" text color="white">Já sou parceiro</v-btn>
     <v-btn class="mr-3" text color="white">Ajuda</v-btn>
     <v-btn class="mr-3" text color="white">Medidas COVID-19</v-btn>
-    <v-btn class="mr-3" outlined color="white">Faça parte</v-btn>
+    <v-btn class="mr-3" to="/Register" outlined color="white">Faça parte</v-btn>
   </v-app-bar>
 </template>
 
